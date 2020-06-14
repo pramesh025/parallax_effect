@@ -64,12 +64,16 @@ window.onload = function() {
             originalval();
         }
     });
-    window.matchMedia("(max-width: 658px) and (min-width:424px)").addListener(function(e) {
+    window.matchMedia("(max-width: 658px) and (min-width:425px)").addListener(function(e) {
         if (e.matches) {
             b_planet.style.height = '75vh';
 
             s_planet.style.top = '20%';
             s_planet.style.height = '12vh';
+
+            heading.style.fontSize = '7vw';
+            heading.style.left = '25%';
+            heading.style.top = '50%';
 
             light.style.top = '30%';
             light.style.left = '-7%';

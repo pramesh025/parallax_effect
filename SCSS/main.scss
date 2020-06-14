@@ -72,61 +72,70 @@ body {
     margin-top: 5%;
     margin-bottom: 10%;
     line-height: 1.5em;
+    text-align: justify;
+    text-align-last: left;
 }
 
-// //media Queries
-// @media only screen and(min-width:658px) {
-//     #light {
-//         top: 10%;
-//         left: 0;
-//         height: 35em;
-//     }
-//     #heading {
-//         font-size: 7vw;
-//         left: 25%;
-//         top: 50%;
-//     }
-//     #b_planet {
-//         height: 100vh;
-//         bottom: 0;
-//     }
-//     #s_planet {
-//         height: 20vh;
-//         right: 10%;
-//         top: 40%;
-//     }
-// }
-// @media only screen and(max-width:425px) {
-//     #b_planet {
-//         height: 75vh;
-//     }
-//     #s_planet {
-//         top: 20%;
-//         height: 12vh;
-//     }
-//     #light {
-//         top: 60%;
-//         left: 10%;
-//         height: 15em;
-//     }
-//     #heading {
-//         font-size: 10vw;
-//         left: 20%;
-//         top: 60%;
-//         color: white;
-//     }
-// }
-// @media only screen and(max-width:658px) and (min-width:425px) {
-//     #b_planet {
-//         height: 75vh;
-//     }
-//     #s_planet {
-//         top: 20%;
-//         height: 12vh;
-//     }
-//     #light {
-//         top: 30%;
-//         left: -7%;
-//         height: 30em;
-//     }
-// }
+//media Queries
+@media only screen and(min-width:658px) {
+    #light {
+        top: 10%;
+        left: 0;
+        height: 35em;
+    }
+    #heading {
+        font-size: 7vw;
+        left: 25%;
+        top: 50%;
+    }
+    #b_planet {
+        height: 100vh;
+        bottom: 0;
+    }
+    #s_planet {
+        height: 20vh;
+        right: 10%;
+        top: 40%;
+    }
+}
+
+@media only screen and(max-width:425px) {
+    #b_planet {
+        height: 75vh;
+    }
+    #s_planet {
+        top: 20%;
+        height: 12vh;
+    }
+    #light {
+        top: 60%;
+        left: 10%;
+        height: 15em;
+    }
+    #heading {
+        font-size: 10vw;
+        left: 20%;
+        top: 40%;
+        color: white;
+    }
+}
+
+@media only screen and(max-width:658px) and (min-width:425px) {
+    #b_planet {
+        height: 75vh;
+    }
+    #s_planet {
+        top: 20%;
+        height: 12vh;
+    }
+    #heading {
+        font-size: 7vw;
+        left: 25%;
+        top: 50%;
+    }
+    #light {
+        top: 30%;
+        left: -7%;
+        height: 30em;
+    }
+}
